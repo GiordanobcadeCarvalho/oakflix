@@ -1,0 +1,65 @@
+/* .swiper-button-next,
+.swiper-button-prev {
+  @apply bg-black text-white rounded-full w-10 h-10 flex items-center justify-center transition-all duration-200 hover:bg-white hover:text-black;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px;
+} */
+
+/* .swiper-button-prev,
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: black;
+} */
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #444;
+}
+
+.swiper-button-prev:active,
+.swiper-button-next:active {
+  transform: scale(0.95);
+  background-color: #333;
+}
